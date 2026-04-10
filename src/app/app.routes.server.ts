@@ -1,0 +1,28 @@
+import { RenderMode, ServerRoute } from '@angular/ssr';
+
+export const serverRoutes: ServerRoute[] = [
+  { path: '', renderMode: RenderMode.Server },
+  { path: 'intro', renderMode: RenderMode.Server },
+  { path: 'step-1', renderMode: RenderMode.Server },
+  { path: 'step-2', renderMode: RenderMode.Server },
+  { path: 'step-3', renderMode: RenderMode.Server },
+  { path: 'step-4', renderMode: RenderMode.Server },
+  { path: 'step-5', renderMode: RenderMode.Server },
+  { path: 'step-6', renderMode: RenderMode.Server },
+  { path: 'step-7', renderMode: RenderMode.Server },
+  { path: 'step-8', renderMode: RenderMode.Server },
+  { path: 'step-9', renderMode: RenderMode.Server },
+  { path: 'step-10', renderMode: RenderMode.Server },
+  { path: 'step-11', renderMode: RenderMode.Server },
+  { path: 'step-12', renderMode: RenderMode.Server },
+  { path: 'step-13', renderMode: RenderMode.Server },
+  { path: 'step-14', renderMode: RenderMode.Server },
+  { path: 'step-15', renderMode: RenderMode.Server },
+  { path: 'step-16', renderMode: RenderMode.Server },
+  { path: 'step-17', renderMode: RenderMode.Server },
+  { path: 'step-18', renderMode: RenderMode.Server },
+  { path: 'step-19', renderMode: RenderMode.Server },
+  { path: 'step-20', renderMode: RenderMode.Server },
+  { path: 'step-21', renderMode: RenderMode.Server },
+  { path: 'step-22', renderMode: RenderMode.Server },
+];

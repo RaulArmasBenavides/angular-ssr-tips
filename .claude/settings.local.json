@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs grep:*)",
+      "Bash(ls -la /c/dev/angular/ssr/.*)",
+      "Bash(node dist/performance-tips/server/server.mjs)",
+      "Bash(node:*)",
+      "Bash(ng build:*)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:4000/)",
+      "Bash(kill %1)",
+      "Bash(grep:*)",
+      "Bash(xargs -I{} node -e \"const p=require\\('{}'\\); console.log\\('{}:', p.version\\)\")",
+      "Bash(ls dist/performance-tips/server/*.mjs)"
+    ]
+  }
+}

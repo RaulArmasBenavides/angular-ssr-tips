@@ -1,0 +1,41 @@
+<div class="hero-section">
+  <!-- Problem 1 Solution: Optimized hero image -->
+  <picture>
+    <source
+      srcset="
+        assets/hero-image-small.avif 300w,
+        assets/hero-image-medium.avif 600w,
+        assets/hero-image-large.avif 900w
+      "
+      type="image/avif"
+    >
+    <source
+      srcset="
+        assets/hero-image-small.webp 300w,
+        assets/hero-image-medium.webp 600w,
+        assets/hero-image-large.webp 900w
+      "
+      type="image/webp"
+    >
+    <img
+      ngSrc="assets/hero-image-fallback.jpg"
+      width="900"
+      height="600"
+      alt="Hero image"
+      fetchpriority="high"
+      sizes="(max-width: 300px) 300w,
+             (max-width: 600px) 600w,
+             900w"
+    >
+  </picture>
+</div>
+
+<button (click)="addCard()">Add Card</button>
+
+<!-- Problem 3 Solution: Added trackBy -->
+<div class="cards-container">
+  <div class="card" *ngFor="let card of cards; trackBy: trackByFn">
+    <img [src]="card.imageUrl" [alt]="card.title">
+    <h3>{{ card.title }}</h3>
+  </div>
+</div>

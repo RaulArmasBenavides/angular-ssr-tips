@@ -1,0 +1,84 @@
+npm verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+npm info using npm@11.7.0
+npm info using node@v20.19.2
+npm verbose title npm run build
+npm verbose argv "run" "build" "--loglevel" "verbose"
+npm verbose logfile logs-max:10 dir:C:\Users\raul_\AppData\Local\npm-cache\_logs\2026-03-18T22_05_39_871Z-
+npm verbose logfile C:\Users\raul_\AppData\Local\npm-cache\_logs\2026-03-18T22_05_39_871Z-debug-0.log
+
+> performance-tips@0.0.0 build
+> ng build
+
+[33mΓ¥»[39m Building...
+[32mΓ£ö[39m Building...
+[35mBrowser bundles[39m      
+[1mInitial chunk files[22m  [2m | [22m[1mNames[22m                                   [2m | [22m [1mRaw size[22m[2m | [22m[1mEstimated transfer size[22m
+[32mchunk-OYFJ3ZPW.js[39m    [2m | [22m[2m-[22m                                       [2m | [22m[36m182.73 kB[39m[2m | [22m               [36m53.73 kB[39m
+[32mchunk-XFVRJGLV.js[39m    [2m | [22m[2m-[22m                                       [2m | [22m[36m130.09 kB[39m[2m | [22m               [36m33.48 kB[39m
+[32mmain-CQ5ES2BM.js[39m     [2m | [22m[2mmain[22m                                    [2m | [22m [36m66.79 kB[39m[2m | [22m               [36m17.75 kB[39m
+[32mpolyfills-6ISPNSXF.js[39m[2m | [22m[2mpolyfills[22m                               [2m | [22m [36m35.68 kB[39m[2m | [22m               [36m11.57 kB[39m
+[32mstyles-IY55S4TG.css[39m  [2m | [22m[2mstyles[22m                                  [2m | [22m  [36m1.09 kB[39m[2m | [22m              [36m404 bytes[39m
+
+[1m [22m                    [2m | [22m[1mInitial total[22m                           [2m | [22m[1m416.38 kB[22m[2m | [22m              [1m116.93 kB[22m
+
+[1mLazy chunk files[22m     [2m | [22m[1mNames[22m                                   [2m | [22m [1mRaw size[22m[2m | [22m[1mEstimated transfer size[22m
+[32mchunk-3UQ7U5KF.js[39m    [2m | [22m[2m-[22m                                       [2m | [22m [36m21.43 kB[39m[2m | [22m                [36m5.05 kB[39m
+[32mchunk-VEAWFCGO.js[39m    [2m | [22m[2mstep22-cache-fixed-component[22m            [2m | [22m  [36m8.60 kB[39m[2m | [22m                [36m2.86 kB[39m
+[32mchunk-R5UL6KOR.js[39m    [2m | [22m[2mstep16-defer-fixed-component[22m            [2m | [22m  [36m7.94 kB[39m[2m | [22m                [36m2.35 kB[39m
+[32mchunk-JPYDESIO.js[39m    [2m | [22m[2mstep14-change-detection-fixed-component[22m [2m | [22m  [36m7.01 kB[39m[2m | [22m                [36m2.38 kB[39m
+[32mchunk-QCWGX4CB.js[39m    [2m | [22m[2mstep21-cache-issue-component[22m            [2m | [22m  [36m6.97 kB[39m[2m | [22m                [36m2.37 kB[39m
+[32mchunk-PFFCHING.js[39m    [2m | [22m[2mstep20-event-replay-component[22m           [2m | [22m  [36m6.83 kB[39m[2m | [22m                [36m2.24 kB[39m
+[32mchunk-6WWX46DA.js[39m    [2m | [22m[2mstep18-hydration-fixed-component[22m        [2m | [22m  [36m6.75 kB[39m[2m | [22m                [36m2.29 kB[39m
+[32mchunk-D26K5HNF.js[39m    [2m | [22m[2mstep8-image-size-fixed-component[22m        [2m | [22m  [36m6.75 kB[39m[2m | [22m                [36m2.03 kB[39m
+[32mchunk-RLKIIVNK.js[39m    [2m | [22m[2mstep13-change-detection-issue-component[22m [2m | [22m  [36m6.04 kB[39m[2m | [22m                [36m2.15 kB[39m
+[32mchunk-DPMPOYCP.js[39m    [2m | [22m[2mstep11-template-function-issue-component[22m[2m | [22m  [36m5.95 kB[39m[2m | [22m                [36m2.01 kB[39m
+[32mchunk-SBLCFKIF.js[39m    [2m | [22m[2mstep19-partial-hydration-component[22m      [2m | [22m  [36m5.85 kB[39m[2m | [22m                [36m2.02 kB[39m
+[32mchunk-YV3TA273.js[39m    [2m | [22m[2mstep12-template-function-fixed-component[22m[2m | [22m  [36m5.80 kB[39m[2m | [22m                [36m2.04 kB[39m
+[32mchunk-AREOR7P3.js[39m    [2m | [22m[2mstep10-format-fixed-component[22m           [2m | [22m  [36m5.27 kB[39m[2m | [22m                [36m1.72 kB[39m
+[32mchunk-UBKATZ3F.js[39m    [2m | [22m[2mstep17-hydration-issue-component[22m        [2m | [22m  [36m4.93 kB[39m[2m | [22m                [36m1.81 kB[39m
+[32mchunk-GUYP73O2.js[39m    [2m | [22m[2mintro-lifecycle-component[22m               [2m | [22m  [36m4.43 kB[39m[2m | [22m                [36m1.54 kB[39m
+[2m...and 15 more lazy chunks files. Use "--verbose" to show all the files.[22m
+
+
+[35mServer bundles[39m       
+[1mInitial chunk files[22m  [2m | [22m[1mNames[22m                                   [2m | [22m [1mRaw size[22m
+[32mserver.mjs[39m           [2m | [22m[2mserver[22m                                  [2m | [22m[36m982.77 kB[39m[2m | [22m                       
+[32mchunk-KY7DEXS3.mjs[39m   [2m | [22m[2m-[22m                                       [2m | [22m[36m515.53 kB[39m[2m | [22m                       
+[32mpolyfills.server.mjs[39m [2m | [22m[2mpolyfills.server[22m                        [2m | [22m[36m266.35 kB[39m[2m | [22m                       
+[32mchunk-GNGMEX7R.mjs[39m   [2m | [22m[2m-[22m                                       [2m | [22m[36m187.47 kB[39m[2m | [22m                       
+[32mchunk-MLKF6NVM.mjs[39m   [2m | [22m[2m-[22m                                       [2m | [22m[36m131.63 kB[39m[2m | [22m                       
+[32mchunk-S6KH3LOX.mjs[39m   [2m | [22m[2m-[22m                                       [2m | [22m  [36m2.77 kB[39m[2m | [22m                       
+[32mmain.server.mjs[39m      [2m | [22m[2mmain.server[22m                             [2m | [22m[36m423 bytes[39m[2m | [22m                       
+
+[1mLazy chunk files[22m     [2m | [22m[1mNames[22m                                   [2m | [22m [1mRaw size[22m
+[32mchunk-2HUB3J5R.mjs[39m   [2m | [22m[2m-[22m                                       [2m | [22m [36m21.49 kB[39m[2m | [22m                       
+[32mchunk-FE3ZEMPP.mjs[39m   [2m | [22m[2mxhr2[22m                                    [2m | [22m [36m12.07 kB[39m[2m | [22m                       
+[32mchunk-NLOHRLOF.mjs[39m   [2m | [22m[2mstep22-cache-fixed-component[22m            [2m | [22m  [36m8.66 kB[39m[2m | [22m                       
+[32mchunk-Z6UWY6RT.mjs[39m   [2m | [22m[2mstep16-defer-fixed-component[22m            [2m | [22m  [36m8.00 kB[39m[2m | [22m                       
+[32mchunk-WBGQE7JG.mjs[39m   [2m | [22m[2mstep14-change-detection-fixed-component[22m [2m | [22m  [36m7.08 kB[39m[2m | [22m                       
+[32mchunk-T2JUP32S.mjs[39m   [2m | [22m[2mstep21-cache-issue-component[22m            [2m | [22m  [36m7.04 kB[39m[2m | [22m                       
+[32mchunk-LERQGFKC.mjs[39m   [2m | [22m[2mstep20-event-replay-component[22m           [2m | [22m  [36m6.89 kB[39m[2m | [22m                       
+[32mchunk-ZBHEANCA.mjs[39m   [2m | [22m[2mstep18-hydration-fixed-component[22m        [2m | [22m  [36m6.82 kB[39m[2m | [22m                       
+[32mchunk-Y7R7CXGL.mjs[39m   [2m | [22m[2mstep8-image-size-fixed-component[22m        [2m | [22m  [36m6.82 kB[39m[2m | [22m                       
+[32mchunk-ZPE7X2EQ.mjs[39m   [2m | [22m[2mstep13-change-detection-issue-component[22m [2m | [22m  [36m6.11 kB[39m[2m | [22m                       
+[32mchunk-IQA6TWQC.mjs[39m   [2m | [22m[2mstep11-template-function-issue-component[22m[2m | [22m  [36m6.02 kB[39m[2m | [22m                       
+[32mchunk-Z6VBQGPV.mjs[39m   [2m | [22m[2mstep19-partial-hydration-component[22m      [2m | [22m  [36m5.92 kB[39m[2m | [22m                       
+[32mchunk-5UAFCOFR.mjs[39m   [2m | [22m[2mstep12-template-function-fixed-component[22m[2m | [22m  [36m5.87 kB[39m[2m | [22m                       
+[32mchunk-DFPWFSYC.mjs[39m   [2m | [22m[2mstep10-format-fixed-component[22m           [2m | [22m  [36m5.34 kB[39m[2m | [22m                       
+[32mchunk-6255XTD6.mjs[39m   [2m | [22m[2mstep17-hydration-issue-component[22m        [2m | [22m  [36m5.00 kB[39m[2m | [22m                       
+[2m...and 16 more lazy chunks files. Use "--verbose" to show all the files.[22m
+
+[35mPrerendered 0 static routes.[39m
+Application bundle generation failed. [41.697 seconds] - 2026-03-18T22:06:35.457Z
+
+Γ£ÿ [ERROR] An error occurred while extracting routes.
+
+NG0401
+
+
+npm verbose cwd C:\dev\angular\angular-performance-tips
+npm verbose os Windows_NT 10.0.26200
+npm verbose node v20.19.2
+npm verbose npm  v11.7.0
+npm verbose exit 1
+npm verbose code 1

@@ -1,0 +1,21 @@
+<h2>Problematic Implementation</h2>
+
+<div class="hero-section">
+  <!-- Problem 1: Large unoptimized PNG image -->
+  <img
+    src="assets/hero-image.png"
+    alt="Hero image"
+    style="width: 100%;"
+  >
+</div>
+
+<button (click)="addCard()">Add Card (Watch DevTools Performance)</button>
+
+<!-- Problem 3: No trackBy function -->
+<div class="cards-container">
+  <div class="card" *ngFor="let card of cards">
+    <!-- Problem 2: Multiple DNS lookups due to different domains -->
+    <img [src]="card.imageUrl" [alt]="card.title">
+    <h3>{{ card.title }}</h3>
+  </div>
+</div>
